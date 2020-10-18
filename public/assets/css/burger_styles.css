@@ -1,0 +1,12 @@
+
+body {
+    background-color: #ffa42c;
+  }
+  #burgerPic {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 300px;
+    display: block;
+    margin-bottom: 20px;
+  }
+  
