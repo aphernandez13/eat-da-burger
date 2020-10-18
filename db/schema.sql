@@ -1,3 +1,4 @@
+  
 -- In the db folder, create a file named schema.sql. Write SQL queries this file that do the following:
 
 -- Create the burgers_db.
@@ -14,3 +15,9 @@ CREATE TABLE burgers (
 -- devoured: a boolean.
   devoured BOOLEAN DEFAULT FALSE,
   PRIMARY KEY (id)
+)
+
+
+INSERT INTO burgers (burger_name, devoured) VALUES ("cheddah", 0);
+INSERT INTO burgers (burger_name, devoured) VALUES ("black and blue", 0);
+INSERT INTO burgers (burger_name, devoured) VALUES ("tuna", 0);
